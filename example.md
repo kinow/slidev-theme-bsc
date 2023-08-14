@@ -1,16 +1,26 @@
 ---
 theme: ./
+class: text-center
+highlighter: shiki
+lineNumbers: false
+info: |
+  Presentation from the BSC about Containers.
+drawings:
+  persist: false
+transition: slide-left
+venue: Online
+date: 'yes'
+hideInToc: true
+layout: cover
+fonts:
+  sans: 'Calibri'
+  fallback: false
+slides-title: Slidev BSC Theme
+slides-date: '14/08/2023'
+slides-venue: 'BSC-CES - MWT'
 ---
 
-# Slidev Theme Starter
-
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+# Slidev BSC Theme
 
 ---
 

@@ -1,7 +1,51 @@
 :root {
-  // default theme color
-  // can be overrided by uses `themeConfig` option
-  --slidev-theme-primary: #5d8392;
+  /* default theme color
+     can be overridden by uses `themeConfig` option
+  --slidev-theme-primary: #5d8392; */
+}
+
+.bsc-cover {
+  @apply h-full grid;
+
+  height: 100%;
+
+  .my-title {
+    background-image: url('/images/bsc-bg.jpg');
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 400px;
+    height: 100%;
+
+    .title {
+      text-align: left;
+      font-weight: bold;
+      font-size: 5rem !important;
+    }
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    padding: 0 0;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 33% 67%;
+    min-width: 100%;
+
+    div {
+      padding: 20px 0;
+    }
+
+    div.date {
+      color: white;
+    }
+
+    div.venue {
+      color: #004890;
+      text-align: left;
+      padding-left: 75px;
+    }
+  }
 }
 
 .slidev-layout.cover,
