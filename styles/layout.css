@@ -10,7 +10,7 @@
   height: 100%;
 
   .my-title {
-    background-image: url('/images/bsc-bg.jpg');
+    background-image: url('/images/bsc-bg.jpg') !important;
     background-size: cover;
     padding-top: 200px;
     padding-left: 400px;
@@ -49,9 +49,6 @@
 }
 
 .bsc-default {
-  background-image: url('/images/bsc-bg2.jpg');
-  background-size: cover;
-
   h1 {
     font-size: 2rem;
     display: block;
@@ -82,6 +79,28 @@
     flex-direction: column;
     flex-basis: 100%;
   }
+}
+
+.bsc-intro {
+  background-size: cover;
+  height: 100%;
+
+  .intro {
+    display: flex !important;
+    justify-content: flex-start;
+    height: 100%;
+
+    h1 {
+      font-size: 6em !important;
+      display: block;
+      margin: auto 0;
+    }
+  }
+}
+
+.slidev-layout {
+  background-image: url('/images/bsc-bg2.jpg');
+  background-size: cover;
 }
 
 .slidev-layout.cover,

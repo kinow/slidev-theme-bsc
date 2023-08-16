@@ -43,6 +43,22 @@ BSC Website: https://www.bsc.es/<br /></p>
 
 ---
 layout: default
+hideInToc: true
+---
+
+# Agenda
+
+<Toc :maxDepth="2" />
+
+---
+layout: intro
+hideInToc: true
+---
+
+# Your title goes here
+
+---
+layout: default
 ---
 
 # What is Slidev?
@@ -110,3 +126,8 @@ class: "text-center"
 # Learn More
 
 [Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+
+---
+layout: thank-you
+slides-email: ENTER_YOUR_EMAIL_ID_HERE
+---
