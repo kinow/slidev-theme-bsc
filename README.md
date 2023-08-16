@@ -33,13 +33,18 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-> TODO:
+- `cover`: The landing page;
+- `default`: As the name suggests, the default layout;
+- `intro`: Used to display a single `H1` centralized, in large font;
+- `thank-you`: Last slide with the “Thank you” note, and contact email.
+
+See `example.md` for usage.
 
 ## Components
 
 This theme provides the following components:
 
-> TODO:
+- None.
 
 ## Contributing
 
