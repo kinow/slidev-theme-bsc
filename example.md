@@ -23,6 +23,27 @@ slides-venue: 'BSC-CES - MWT'
 # Slidev BSC Theme
 
 ---
+layout: default
+hideInToc: true
+---
+
+<div class="center1">
+
+# Bruno P. Kinoshita
+
+Research Engineer
+
+<p>
+Computational Earth Sciences | Earth Sciences Department<br />
+Barcelona Supercomputing Center - Centro Nacional de Supercomputación<br />
+Address: C/ Jordi Girona, 31, 08034 Barcelona | Torre Girona, 2nd Floor<br />
+BSC Website: https://www.bsc.es/<br /></p>
+
+</div>
+
+---
+layout: default
+---
 
 # What is Slidev?
 
